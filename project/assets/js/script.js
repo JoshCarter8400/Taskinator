@@ -281,6 +281,16 @@ var dragLeaveHandler = function(event) {
 var saveTasks = function() {
     localStorage.setItem("tasks", JSON.stringify(tasks));
 }
+
+var loadTasks = function() {
+    //Gets task items from localStorage
+    //Converts tasks from the stringified format back into an array of objects
+    //Iterates through tasks array and creates task elements on the page from it
+    console.log();
+
+
+
+}
 pageContentEl.addEventListener("click", taskButtonHandler);
 formEl.addEventListener("submit", taskFormHandler);
 pageContentEl.addEventListener("change", taskStatusChangeHandler);
