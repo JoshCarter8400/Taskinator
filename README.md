@@ -7,4 +7,4 @@ With this project users are able to schedule tasks for themselves by name and ch
 3. JavaScript
 
 ### Application can be deployed here: https://joshcarter8400.github.io/Taskinator/
-<img src="./images/taskinator-screenshot.png">
+<img src="./assets/images/taskinator-screenshot.png">
